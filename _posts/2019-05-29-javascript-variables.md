@@ -9,11 +9,16 @@ categories: javascript
 
 스네이크 타입
 * 명사와 명사 사이에 언더바 _ 를 넣어서 표기한다.
-(ex, first_input)
+```js
+var first_input = "";
+```
 
 카멜 타입
 * 새로운 명사 첫 알파벳을 대문자로 표기한다.
-(ex, firstInput)
+```js
+var firstInput = "";
+```
+
 
 실제 개발환경에서는 카멜 타입을 주로 사용하는데, 그 이유는 스네이크 타입으로 하면 변수 명이 너무 길어져 보기가 어렵기 때문.
 
