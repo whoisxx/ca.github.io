@@ -36,3 +36,5 @@ $ eb create
 
 여기서 환경 이름, DNS CNAME, load balancer type 등을 정의할 수 있고 이후에 몇분을 기다면 첫 배포가 완료된다.
 
+아마 CI/CD 환경을 구축하지 않고서는 github에 push하고 이후에 eb에 푸시하는 형태가 되는 모양이다.
+이후에 CI/CD 환경을 구축하고 나면, 자동으로 해당 git repository 에 있는 소스코드를 jenkins등이 가져와서 elastic beanstalk에 배포하는 모양새가 될듯.
